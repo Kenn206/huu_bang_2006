@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.container {
+    padding: 0;
+}
+.header_up {
+    background-color: #E31F33;
+    height: 35px;
+    width: 100%;
+}
+.header_up-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+    padding: 0;
+}
+.header_up span {
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sticky-top {
+    background-color: white;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 1px 20px rgb(201, 201, 201);
+}
+.header_down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+.nav ul li {
+    list-style: none;
+    padding: 15px;
+}
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+.banner {
+    display: flex;
+    justify-content: center;
+}
+.banner img {
+    width: 100%;
+}
+.container_banner {
+    position: relative;
+}
+.content_banner {
+    position: absolute;
+    width: auto;
+    line-height: 70px;
+    top: 150px;
+    left: 15%;
+}
+.caodangvietmyhanoi {
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #E31F33;
+}
+.modottuyensinh {
+    font-size: 3rem;
+    font-family: "Dancing Script", serif;
+}
+.dangkyngay {
+    background-color: #E31F33;
+    font-weight: 700;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 20px;
+}
+.box {  
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 50px auto;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.bxs-tennis-ball {
+    font-size: 50px;
+    background-color: #ffabb3;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.dangtuyensinh {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.box5 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.box5 img {
+    width: 420px;
+    border-radius: 10px;
+}
+.box5 p {
+    position: absolute;
+    left: 15%;
+    bottom: -10%;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #dad8d8;
+    margin: 0;
+    padding: 12px 20px;
+    width: 300px;
+    font-size: 1.2rem;
+}
+.video_content {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.box7 {
+    width: 49.8%;
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+.box7 hr {
+    width: 100px;
+    margin: 20px auto;
+    color: #E31F33;
+}
+.box7 p {
+    font-size: 1.2rem;
+}
+.img_logo {
+    position: absolute;
+    right: 0;
+    bottom: 54px;
+    z-index: -1;
+}
+.img_logo img {
+    width: 100%;
+    opacity: 0.08;
+}
+.lydochoncaodangvietmy {
+    background-image: url(https://caodangvietmyhanoi.edu.vn/images/config/nen-chuyen-nganh_1648980651.jpg.webp);
+    height: 500px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+.content_lydochontruongnay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content_1 {
+    width: 300px;
+    margin: 0 20px;
+}
+.content_2 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.child_1 {
+    display: flex;
+    gap: 40px;
+}
+.box8 {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box8 p {
+    font-weight: bold;
+    margin: 0;
+}
+.bxs-school {
+    font-size: 60px;
+}
+@media screen and (max-width: 1440px){
+    .caodangvietmyhanoi {
+        font-size: 2.4rem;
+    }
+    .modottuyensinh {
+        font-size: 2.2rem;
+    }
+    .content_banner {
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .header_down {
+        margin: 0 10px;
+    }
+    .nav ul {
+        display: none;
+    }
+    .content_banner {
+        position: absolute;
+        width: auto;
+        line-height: 40px;
+        top: 25%;
+        left: 10%;
+    }
+    .caodangvietmyhanoi {
+        font-size: 2.2rem;
+    }
+    .modottuyensinh {
+        font-size: 2rem;
+    }
+    .box5 img {
+        width: 360px;
+    }
+    .box5 p {
+        left: 18%;
+        padding: 12px 20px;
+        width: 230px;
+        font-size: 1rem;
+    }
+    .box7 {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        position: relative;
+    }
+    .box7 video {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header_down {
+        margin: 0 10px;
+    }
+    .nav ul {
+        display: none;
+    }
+    .content_banner {
+        position: absolute;
+        width: auto;
+        line-height: 40px;
+        top: 20%;
+        left: 7%;
+    }
+    .caodangvietmyhanoi {
+        font-size: 2.2rem;
+    }
+    .modottuyensinh {
+        font-size: 2rem;
+    }
+    .box4, .box3, .box2, .box1 {
+        width: 250px;
+    }
+    .box h3 {
+        font-size: 1.5rem;
+    }
+    .box h4 {
+        font-size: 1.2rem;
+    }
+    .box5 img {
+        width: 310px;
+    }
+    .box5 p {
+        left: 13.1%;
+        bottom: -10%;
+        background-color: #FFF;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px #dad8d8;
+        margin: 0;
+        padding: 12px 20px;
+        width: 230px;
+        font-size: 1rem;
+    }
+    .box7 {
+        width: 100%;
+        height: 500px;
+        text-align: center;
+        position: relative;
+    }
+    .box7 video {
+        width: 400px;
+    }
+    .content_lydochontruongnay {
+        flex-direction: column;
+    }
+    .content_1 {
+        width: 100%;
+        text-align: center;
+    }
+    .content_1 hr {
+        width: 100% !important;
+    }
+}
